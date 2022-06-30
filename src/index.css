@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=BIZ+UDGothic:wght@700&family=Baloo+Da+2&family=Dosis:wght@200&family=Noto+Serif&family=Play&family=Tapestry&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=BIZ+UDGothic:wght@700&family=Baloo+Da+2&family=Dosis:wght@200&family=Lobster&family=Noto+Serif&family=Play&family=Spline+Sans+Mono:wght@300&family=Tapestry&display=swap');
+
+*
+{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+.navBar 
+{
+  position: sticky;
+  top: 0%;
+  width: 1100px;
+  margin: auto;
+  padding: 5px 20px;
+  background-color: rgb(60, 136, 199);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 5px 2px 0px black;
+}
+
+.searchbox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbox input{
+  width: 400px;
+  height: 40px;
+  border: 2px solid #0f79af;
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+.searchbox input:focus
+{
+  border: 2px solid purple;
+}
+
+.searchbox button:hover
+{
+  border: 2px solid purple;
+  color: purple;
+}
+
+
+.searchbox button{
+  height: 40px;
+  width: 100px;
+  border: 2px solid #0f79af;
+  border-radius: 10px;
+}
+
+.searchbox input::placeholder
+{
+  padding: 10px;
+  font-size: 15px;
+}
+
+body{
+  background-color: white;
+  
+}
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav a {
+  margin: 0px 40px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Tapestry', cursive;
+}
+
+#heading
+{
+  color: white;
+  font-weight: 0;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 24px;
+  letter-spacing: 3px;
+
+}
+
+.input
+{
+  border: transparent;
+  border-bottom: 0.5px solid rgb(192, 191, 191);
+  width: 100%;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 24px;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 10px;
+  color: blue;
+}
+
+.input:focus
+{
+  border: transparent;
+  border-bottom: 1px solid purple; 
+  width: 100%;
+  transition: 1s;
+  background-color: transparent;
+}
+
+.one
+{
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+
+}
+.one:hover
+{
+  border: 1px solid rgb(60, 136, 199);
+  box-shadow: 2px 2px 1px 1px rgb(60, 136, 199);
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.formTag
+{
+  width: 1000px;
+  padding: 25px;
+  margin: auto;
+  background-color: transparent;
+}
+
+label
+{
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+
+.response
+{
+  width: 600px;
+  margin: auto; 
+  height: 300px; 
+  background-color:rgb(60, 136, 199); 
+  border-radius: 20px;
+  border-top: 30px solid green;
+  background-image:url(cong.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 400px 200px;
+  background-position: bottom  ;
+  border-bottom: 1px solid rgb(60, 136, 199);
+}
+
+#responseH1
+{
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+#branch , #state
+{
+  border: transparent;
+  border-bottom: 0.5px solid rgb(192, 191, 191);
+  width: 100%;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+#branch ,#state option{
+  font-size: 14px;
+}
+
+.Table1
+{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.Table2
+{
+  width:1400px;
+  margin: auto;
+  text-align: center;
+}
+
+.response a h2
+{
+  background-color: darkmagenta;
+  width: 200px;
+  margin: auto;
+  color: aliceblue;
+}
+
+.response a{
+  text-decoration: none;
+}
+
+.dataPageInt
+{
+  width: 1000px;
+  padding: 25px;
+  margin: auto;
+  background-color: transparent;
+}
+
+#deleteStudent 
+{
+  width: 150px;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color:red ;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#deleteStudent:hover 
+{
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+}
+
+#editStudent 
+{
+  width: 150px;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color:green ;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#editStudent:hover 
+{
+  color:green;
+  background-color: white;
+  border: 1px solid green;
+}
+
+.forFlex
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.pending
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: black;
+}
+
+.loading 
+{
+  height: 100px;
+  width: 100px;
+  border: solid 10px;
+  border-bottom-color: #0f79af;
+  border-top-color: #0f79af;
+  border-radius: 50%;
+  border-left: transparent;
+  border-right: transparent;
+  animation: loadingKey 1s infinite;
+}
+
+@keyframes loadingKey {
+  to{
+    transform: rotate(1turn);
+  }
+}
+
+#submit 
+{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 150px;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color:rgb(60, 136, 199) ;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#submit:hover 
+{
+  color:rgb(60, 136, 199);
+  background-color: white;
+  border: 1px solid rgb(60, 136, 199);
+}
+
+.fileNotFound
+{
+  width: 800px;
+  margin: auto;
+}
+
+.fileNotFound button
+{
+    background-color: #0f79af;
+    border: 3px solid transparent;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    width: 200px;
+}
+
+.fileNotFound button:hover
+{
+    color: #0f79af;
+    background-color: white;
+    border: 3px solid #0f79af;
+}
+
+.fileNotFound h1
+{
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 32px
+}
+
+
+
+.dataInt a:link
+{
+  color: black;
+}
+
+.dataInt a:visited
+{
+  color: sienna;
+}
+
+.dataInt a:hover
+{
+  color: blue;
+}
+
+.dataInt a:active
+{
+  color: green;
+}
+
+.updatePage
+{
+  width: 400px;
+  margin: auto;
+}
+
+.updatePage h1
+{
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
